@@ -1,4 +1,6 @@
 package br.com.MKCM.calc.visao;
 
-public class Botao {
+import javax.swing.*;
+
+public class Botao extends JButton {
 }
