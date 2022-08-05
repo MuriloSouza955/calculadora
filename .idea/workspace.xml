@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4da6d4-d696-45da-a524-f91ad88e3260" name="Changes" comment="aula20 - Implementação do layout do teclado">
-      <change afterPath="$PROJECT_DIR$/src/br/com/MKCM/calc/modelo/Memoria.java" afterDir="false" />
+    <list default="true" id="2d4da6d4-d696-45da-a524-f91ad88e3260" name="Changes" comment="aula21 - Inicio da logica (memoria)">
+      <change afterPath="$PROJECT_DIR$/src/br/com/MKCM/calc/modelo/MemoriaObservador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/MKCM/calc/modelo/Memoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/MKCM/calc/modelo/Memoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/MKCM/calc/visao/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/MKCM/calc/visao/Display.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/MKCM/calc/visao/Teclado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/MKCM/calc/visao/Teclado.java" afterDir="false" />
     </list>
@@ -79,7 +80,7 @@
       <workItem from="1659653365853" duration="41000" />
       <workItem from="1659661864100" duration="1920000" />
       <workItem from="1659717886708" duration="1506000" />
-      <workItem from="1659735185776" duration="943000" />
+      <workItem from="1659735185776" duration="1849000" />
     </task>
     <task id="LOCAL-00001" summary="aula17 - Implementação do display">
       <created>1659647421450</created>
@@ -109,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659718782192</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="aula21 - Inicio da logica (memoria)">
+      <created>1659736306675</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659736306675</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +138,7 @@
     <MESSAGE value="aula17 - Implementação do display" />
     <MESSAGE value="aula18 - Implementação do Teclado" />
     <MESSAGE value="aula20 - Implementação do layout do teclado" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula20 - Implementação do layout do teclado" />
+    <MESSAGE value="aula21 - Inicio da logica (memoria)" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula21 - Inicio da logica (memoria)" />
   </component>
 </project>
