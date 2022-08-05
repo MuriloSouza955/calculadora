@@ -1,6 +1,5 @@
 package br.com.MKCM.calc.visao;
 
-import javax.imageio.stream.ImageInputStream;
 import javax.swing.*;
 import java.awt.*;
 
@@ -10,6 +9,7 @@ public class Calculadora extends JFrame {
 
         organizarTeclado();
         setSize(232, 322);
+        setBackground(Color.BLACK);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
