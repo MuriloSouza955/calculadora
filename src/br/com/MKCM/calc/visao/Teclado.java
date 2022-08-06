@@ -25,9 +25,10 @@ public class Teclado extends JPanel implements ActionListener {
         Color COR_CINZA_CLARO = new Color(99, 99, 99);
 
         //linha 1
-        c.gridwidth = 3;
+        c.gridwidth = 2;
         adicionarBotao("AC", COR_CINZA_ESCURO, c, 0, 0);
         c.gridwidth = 1;
+        adicionarBotao("±", COR_CINZA_ESCURO, c, 2, 0);
         adicionarBotao("/", COR_LARANJA, c, 3, 0);
         //linha 2
         adicionarBotao("7", COR_CINZA_CLARO, c, 0, 1);
@@ -66,8 +67,7 @@ public class Teclado extends JPanel implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() instanceof JButton) {
-            JButton botao = (JButton) e.getSource();
+        if (e.getSource() instanceof JButton botao) {
             Memoria.getInstancia().processarComando(botao.getText());
         }
     }

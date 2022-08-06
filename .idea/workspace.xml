@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4da6d4-d696-45da-a524-f91ad88e3260" name="Changes" comment="aula21 - Inicio da logica (memoria)">
-      <change afterPath="$PROJECT_DIR$/src/br/com/MKCM/calc/modelo/MemoriaObservador.java" afterDir="false" />
+    <list default="true" id="2d4da6d4-d696-45da-a524-f91ad88e3260" name="Changes" comment="Finalização">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/MKCM/calc/modelo/Memoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/MKCM/calc/modelo/Memoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/MKCM/calc/visao/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/MKCM/calc/visao/Display.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/MKCM/calc/visao/Teclado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/MKCM/calc/visao/Teclado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,17 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "create.test.in.the.same.root": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.MKCM.calc.visao.Calculadora" />
@@ -80,7 +79,7 @@
       <workItem from="1659653365853" duration="41000" />
       <workItem from="1659661864100" duration="1920000" />
       <workItem from="1659717886708" duration="1506000" />
-      <workItem from="1659735185776" duration="1849000" />
+      <workItem from="1659735185776" duration="8079000" />
     </task>
     <task id="LOCAL-00001" summary="aula17 - Implementação do display">
       <created>1659647421450</created>
@@ -117,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659736306675</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="aula22 - Inicio da logica (MemoriaObservador)">
+      <created>1659737224791</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659737224791</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +145,8 @@
     <MESSAGE value="aula18 - Implementação do Teclado" />
     <MESSAGE value="aula20 - Implementação do layout do teclado" />
     <MESSAGE value="aula21 - Inicio da logica (memoria)" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula21 - Inicio da logica (memoria)" />
+    <MESSAGE value="aula22 - Inicio da logica (MemoriaObservador)" />
+    <MESSAGE value="Finalização" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalização" />
   </component>
 </project>
